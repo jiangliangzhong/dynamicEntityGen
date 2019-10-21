@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <classFileDir>D:\MyJava\dynamicgenclass\class-file</classFileDir>
+    <superClass> </superClass> <!--不支持抽象类-->
+    <interfaces>
+        <interface>
+            <IName> </IName>
+            <methods>
+                <MName> </MName>
+                <code> </code><!-- 实现代码 -->
+            </methods>
+        </interface>
+    </interfaces>
+</project>
