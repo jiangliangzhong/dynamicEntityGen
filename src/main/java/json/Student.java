@@ -53,10 +53,7 @@ public class Student extends Person implements IJsonParse{
         return BaseGen.toJsonObject(true,this).toString();
     }
 
-    @Override
-    public String toJson(boolean superFlag) {
-        return null;
-    }
+
 
     @Override
     public void fromJson(String jsonStr) {

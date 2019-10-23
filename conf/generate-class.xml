@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project>
-    <classFileDir>D:\MyJava\dynamicgenclass\class-file</classFileDir>
-    <superClass> </superClass> <!--不支持抽象类-->
-    <interfaces>
-        <interface>
-            <IName> </IName>
-            <methods>
-                <MName> </MName>
+    <!-- 需要继承的类，不支持抽象类，暂不支持重写-->
+    <!--<superClass className=""/> -->
+    <interfaces> <!-- 继承接口信息集合 -->
+        <interface IName=""> <!-- 接口信息-->
+            <method MName=""><!-- 方法， name为方法名字-->
                 <code> </code><!-- 实现代码 -->
-            </methods>
+            </method>
         </interface>
     </interfaces>
 </project>

@@ -1,6 +1,8 @@
 package classgen.ass;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import java.io.Serializable;
 import java.util.List;
@@ -12,13 +14,14 @@ import java.util.List;
  * @date 19:20 2019/10/19
  */
 @Data
+@AllArgsConstructor
+@NoArgsConstructor
 public class ClassParam {
-
     private String tableName;
+    private String schema;
     private String className;
+    private boolean autoMatch;
     /**字段和属性对应关系*/
     private List<FieldParam> fieldParamList;
-
-
 
 }

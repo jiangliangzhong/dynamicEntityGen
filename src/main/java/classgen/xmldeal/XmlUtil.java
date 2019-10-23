@@ -1,5 +1,6 @@
 package classgen.xmldeal;
 
+import lombok.Data;
 import org.dom4j.Document;
 import org.dom4j.DocumentException;
 import org.dom4j.Element;
@@ -14,6 +15,7 @@ import java.util.Iterator;
  * @author jiangliangzhong
  * @date 16:27 2019/10/19
  */
+@Data
 public class XmlUtil {
     private String filePath;
     private SAXReader saxReader;
@@ -42,8 +44,4 @@ public class XmlUtil {
         throw new RuntimeException("没有找到相应的classFileDir标签");
     }
 
-    public static void main(String[] args) throws DocumentException {
-        XmlUtil xmlUtil = new XmlUtil("D:\\MyJava\\dynamicgenclass\\conf\\generate-class.xml");
-        System.out.println(xmlUtil.getClassFileDir());
-    }
 }

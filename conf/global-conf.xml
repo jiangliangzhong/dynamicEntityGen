@@ -1,0 +1,10 @@
+<configuration>
+    <tasks> <!-- 任务集合 -->
+        <!-- 该任务下实体类继承关系配置文件；表和类的对应关系-->
+        <!-- superInfoFilePath:可以缺失-->
+        <!-- tableClassAssInfoFilePath:不能缺失 -->
+        <task  tableClassAssInfoFilePath="D:\MyJava\dynamicEntityGen\conf\tableClassAssInfo.xml" />
+    </tasks>
+
+
+</configuration>

@@ -32,6 +32,22 @@ public class FieldParam {
         this.fieldType = fieldType;
     }
 
+    public FieldParam(String fieldName, Class<?> fieldType, String classFieldName) {
+        this.modifierNum = Modifier.PRIVATE;
+        this.fieldName = fieldName;
+        this.fieldType = fieldType;
+        this.classFieldName = classFieldName;
+    }
+
+    public FieldParam(String fieldName, Class<?> fieldType, String classFieldName, String setterName, String getterName) {
+        this.modifierNum = Modifier.PRIVATE;
+        this.fieldName = fieldName;
+        this.fieldType = fieldType;
+        this.classFieldName = classFieldName;
+        this.setterName = setterName;
+        this.getterName = getterName;
+    }
+
     public String getClassFieldName() {
         return classFieldName;
     }

@@ -2,9 +2,52 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1883622-399e-422a-80f4-33b24b23a673" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/conf/global-conf.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conf/tableClassAssInfo.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/classgen/Test3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/classgen/adpaters/TransfromUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/classgen/ass/GenerateTaskDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/classgen/ass/GenerateTaskInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/classgen/ass/GlobalConfigInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/classgen/ass/TableClassAssInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/classgen/core/FieldAnaylzeUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/classgen/core/GlobalConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/classgen/core/TaskDetailConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/classgen/database/CorrespondType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/classgen/database/DBType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/classgen/database/DataBaseConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/classgen/database/MysqlCorrespondType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/classgen/exception/CannotInitGenTool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/classgen/exception/MissingAttributeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/classgen/mapass/EntityClassInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/classgen/mapass/FieldMemberInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/classgen/mapass/TableInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/classgen/mapass/TableWithEntityRelPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/classgen/superinfo/InterfaceInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/classgen/superinfo/MethodInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/classgen/superinfo/SuperClassInfo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Jiang.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamicgenclass.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/generate-class.xml" beforeDir="false" afterPath="$PROJECT_DIR$/conf/generate-class.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/classgen/EntityClassGenUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/classgen/EntityClassGenUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/classgen/Test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/classgen/Test2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/classgen/ass/ClassParam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/classgen/ass/ClassParam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/classgen/ass/FieldParam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/classgen/ass/FieldParam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/classgen/core/ClassGenerateCore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/classgen/core/ClassGenerateCore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/classgen/core/MyClassLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/classgen/core/MyClassLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/classgen/superinfo/EntitySuperInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/classgen/superinfo/EntitySuperInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/classgen/xmldeal/XmlUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/classgen/xmldeal/XmlUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/json/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/json/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/json/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/json/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/classgen/EntityClassGenUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/classgen/EntityClassGenUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/classgen/Test2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/classgen/Test2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/classgen/ass/ClassParam.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/classgen/ass/ClassParam.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/classgen/ass/FieldParam.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/classgen/ass/FieldParam.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/classgen/core/ClassGenerateCore.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/classgen/core/ClassGenerateCore.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/classgen/core/MyClassLoader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/classgen/core/MyClassLoader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/classgen/xmldeal/XmlUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/classgen/xmldeal/XmlUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/json/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/json/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/json/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/json/Student.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -14,45 +57,62 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DockManager">
+    <window id="6">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/conf/tableClassAssInfo.xml">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="378">
+                    <caret line="14" column="50" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/classgen/core/ClassGenerateCore.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/classgen/superinfo/EntitySuperInfo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="3" column="41" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
+            <state relative-caret-position="280">
+              <caret line="127" selection-start-line="127" selection-end-line="127" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/class-file/jiang/Jiang.class">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/conf/generate-class.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+            <state relative-caret-position="112">
+              <caret line="9" selection-start-line="9" selection-end-line="33" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/classgen/xmldeal/XmlUtil.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/classgen/Test3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1053">
-              <caret line="45" column="37" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
+            <state relative-caret-position="260">
+              <caret line="31" column="42" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/classgen/adpaters/TransfromUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="274">
+              <caret line="40" column="79" selection-start-line="40" selection-start-column="79" selection-end-line="40" selection-end-column="79" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -61,28 +121,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/classgen/core/MyClassLoader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1296">
-              <caret line="50" selection-start-line="50" selection-end-line="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/classgen/ass/FieldParam.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="20" column="29" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/classgen/Test2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="26" column="16" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="18" />
+            <state relative-caret-position="219">
+              <caret line="36" selection-start-line="36" selection-end-line="40" selection-end-column="77" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -93,8 +135,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/classgen/EntityClassGenUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+            <state relative-caret-position="415">
+              <caret line="102" selection-start-line="102" selection-end-line="102" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -102,11 +144,46 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/classgen/ass/ClassParam.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/classgen/core/TaskDetailConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="337">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="-233">
+              <caret line="177" column="45" selection-start-line="177" selection-start-column="36" selection-end-line="177" selection-end-column="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#analyzeGenerateTaskDetail#0;class#TaskDetailConfiguration#0" />
+                <element signature="method#anylyzeEntitySuperInfo#0;class#TaskDetailConfiguration#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/classgen/ass/FieldParam.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="265">
+              <caret line="16" column="30" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/classgen/mapass/TableWithEntityRelPool.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/classgen/mapass/FieldMemberInfo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -120,6 +197,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -130,19 +208,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/SuperTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/javaassistgen/Test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/javaassistgen/IJsonParse.java" />
-        <option value="$PROJECT_DIR$/src/main/java/javaassistgen/Student.java" />
-        <option value="$PROJECT_DIR$/src/main/java/javaassistgen/JsonTools.java" />
         <option value="$PROJECT_DIR$/src/main/java/javaassistgen/Person.java" />
         <option value="$PROJECT_DIR$/src/main/java/javaassistgen/BaseGen.java" />
         <option value="$PROJECT_DIR$/src/main/java/javaassistgen/Test1.java" />
-        <option value="$PROJECT_DIR$/src/main/java/json/Student.java" />
         <option value="$PROJECT_DIR$/src/main/java/json/Test1.java" />
         <option value="$PROJECT_DIR$/src/main/java/javaassist/ObjectGenerateUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/Application.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/json/IJsonParse.java" />
         <option value="$PROJECT_DIR$/src/main/java/javaassist/MyClassLoader.java" />
         <option value="$PROJECT_DIR$/src/main/java/javaassist/xmldeal/XmlUtil.java" />
@@ -151,14 +222,43 @@
         <option value="$PROJECT_DIR$/src/main/java/javaassist/ClassGenerateUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/javaassist/Test2.java" />
         <option value="$PROJECT_DIR$/src/main/java/classgen/ClassParam.java" />
-        <option value="$PROJECT_DIR$/src/main/java/json/Person.java" />
-        <option value="$PROJECT_DIR$/src/main/java/classgen/Test2.java" />
-        <option value="$PROJECT_DIR$/src/main/java/classgen/core/MyClassLoader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/classgen/xmldeal/XmlUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/classgen/exception/CannotInitGenTool.java" />
+        <option value="$PROJECT_DIR$/src/main/java/classgen/ass/GenerateTask.java" />
+        <option value="$PROJECT_DIR$/src/main/java/classgen/ass/GlobalConfigInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/classgen/superinfo/SuperClassInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/classgen/superinfo/MethodInfo.java" />
         <option value="$PROJECT_DIR$/src/main/java/classgen/superinfo/EntitySuperInfo.java" />
-        <option value="$PROJECT_DIR$/conf/generate-class.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/classgen/core/ClassGenerateCore.java" />
-        <option value="$PROJECT_DIR$/src/main/java/classgen/EntityClassGenUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/classgen/superinfo/InterfaceInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/json/Person.java" />
+        <option value="$PROJECT_DIR$/src/main/java/json/Student.java" />
+        <option value="$PROJECT_DIR$/src/main/java/classgen/database/DataBaseConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/classgen/exception/MissingAttributeException.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/classgen/database/CorrespondType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/classgen/database/DBType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/classgen/database/MysqlCorrespondType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/classgen/ass/FieldParam.java" />
+        <option value="$PROJECT_DIR$/src/main/java/classgen/ass/TableClassAssInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/classgen/ass/GenerateTaskInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/classgen/ass/GenerateTaskDetail.java" />
+        <option value="$PROJECT_DIR$/src/main/java/classgen/core/MyClassLoader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/classgen/Test2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/classgen/mapass/EntityClassInfo.java" />
         <option value="$PROJECT_DIR$/src/main/java/classgen/ass/ClassParam.java" />
+        <option value="$PROJECT_DIR$/src/main/java/classgen/mapass/TableInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/classgen/mapass/TableWithEntityRel.java" />
+        <option value="$PROJECT_DIR$/conf/tableClassAssInfo.xml" />
+        <option value="$PROJECT_DIR$/conf/generate-class.xml" />
+        <option value="$PROJECT_DIR$/conf/global-conf.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/classgen/core/GlobalConfiguration.java" />
+        <option value="$PROJECT_DIR$/src/main/java/classgen/core/ClassGenerateCore.java" />
+        <option value="$PROJECT_DIR$/src/main/java/classgen/core/FieldAnaylzeUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/classgen/EntityClassGenUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/classgen/core/TaskDetailConfiguration.java" />
+        <option value="$PROJECT_DIR$/src/main/java/classgen/Test3.java" />
+        <option value="$PROJECT_DIR$/src/main/java/classgen/adpaters/TransfromUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/classgen/mapass/FieldMemberInfo.java" />
       </list>
     </option>
   </component>
@@ -170,7 +270,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -180,12 +281,24 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="dynamicEntityGen" type="b2602c69:ProjectViewProjectNode" />
               <item name="dynamicEntityGen" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dynamicEntityGen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dynamicEntityGen" type="462c0819:PsiDirectoryNode" />
+              <item name="class-file" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dynamicEntityGen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dynamicEntityGen" type="462c0819:PsiDirectoryNode" />
+              <item name="class-file" type="462c0819:PsiDirectoryNode" />
+              <item name="jiang" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dynamicEntityGen" type="b2602c69:ProjectViewProjectNode" />
@@ -210,18 +323,100 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="dynamicEntityGen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dynamicEntityGen" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="classgen" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dynamicEntityGen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dynamicEntityGen" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="classgen" type="462c0819:PsiDirectoryNode" />
+              <item name="adpaters" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dynamicEntityGen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dynamicEntityGen" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="classgen" type="462c0819:PsiDirectoryNode" />
+              <item name="ass" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dynamicEntityGen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dynamicEntityGen" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="classgen" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dynamicEntityGen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dynamicEntityGen" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="classgen" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dynamicEntityGen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dynamicEntityGen" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="classgen" type="462c0819:PsiDirectoryNode" />
+              <item name="exception" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dynamicEntityGen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dynamicEntityGen" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="classgen" type="462c0819:PsiDirectoryNode" />
+              <item name="mapass" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dynamicEntityGen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dynamicEntityGen" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="classgen" type="462c0819:PsiDirectoryNode" />
+              <item name="xmldeal" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dynamicEntityGen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dynamicEntityGen" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="json" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dynamicEntityGen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571662615722" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571826427089" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -243,20 +438,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test2">
-    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Application" />
-      <module name="dynamicgenclass" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ClassGenerateUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javaassist.ClassGenerateUtil" />
+  <component name="RunManager" selected="Application.Test3">
+    <configuration name="EntityClassGenUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classgen.EntityClassGenUtil" />
       <module name="dynamicgenclass" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="classgen.core.*" />
+          <option name="PATTERN" value="classgen.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -264,12 +452,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="json.Test1" />
+    <configuration name="TableInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classgen.mapass.TableInfo" />
       <module name="dynamicgenclass" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="json.*" />
+          <option name="PATTERN" value="classgen.mapass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -283,6 +471,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="classgen.core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classgen.Test3" />
+      <module name="dynamicgenclass" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="classgen.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -305,11 +506,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test3" />
+        <item itemvalue="Application.TableInfo" />
         <item itemvalue="Application.Test2" />
+        <item itemvalue="Application.EntityClassGenUtil" />
         <item itemvalue="Application.XmlUtil" />
-        <item itemvalue="Application.ClassGenerateUtil" />
-        <item itemvalue="Application.Application" />
-        <item itemvalue="Application.Test1" />
       </list>
     </recent_temporary>
   </component>
@@ -326,6 +527,7 @@
       <workItem from="1571388677684" duration="54196000" />
       <workItem from="1571662537247" duration="86000" />
       <workItem from="1571663741849" duration="53000" />
+      <workItem from="1571663889260" duration="48777000" />
     </task>
     <task id="LOCAL-00001" summary="初始化">
       <created>1571546443259</created>
@@ -334,16 +536,24 @@
       <option name="project" value="LOCAL" />
       <updated>1571546443259</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="使用ideal加载">
+      <created>1571664009347</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1571664009347</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54335000" />
+    <option name="totallyTimeSpent" value="103112000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20628998" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20842217" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -351,16 +561,16 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32925472" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32925472" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.36859688" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32850778" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32850778" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.36859688" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32962137" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32962137" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32925472" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32850778" />
       <window_info anchor="bottom" id="Run with VisualVM" order="11" />
       <window_info anchor="bottom" id="JProfiler" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
@@ -387,7 +597,8 @@
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
     <MESSAGE value="初始化" />
-    <option name="LAST_COMMIT_MESSAGE" value="初始化" />
+    <MESSAGE value="使用ideal加载" />
+    <option name="LAST_COMMIT_MESSAGE" value="使用ideal加载" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -424,274 +635,79 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/classgen/xmldeal/XmlUtil.java</url>
-          <line>42</line>
+          <line>44</line>
           <properties />
           <option name="timeStamp" value="25" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/classgen/Test2.java</url>
-          <line>39</line>
+          <line>40</line>
           <properties />
           <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/classgen/Test3.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/classgen/EntityClassGenUtil.java</url>
+          <line>99</line>
+          <properties />
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/classgen/core/ClassGenerateCore.java</url>
+          <line>144</line>
+          <properties />
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/classgen/Test3.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/classgen/EntityClassGenUtil.java</url>
+          <line>102</line>
+          <properties />
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/classgen/adpaters/TransfromUtil.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/classgen/core/ClassGenerateCore.java</url>
+          <line>127</line>
+          <properties />
+          <option name="timeStamp" value="47" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/target/classes/IEsbInvoker1.class" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/net/URLClassLoader.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="381" selection-start-line="381" selection-end-line="381" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/javaassistgen/Test.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/reflect/AccessibleObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="125" column="29" selection-start-line="125" selection-start-column="16" selection-end-line="125" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar!/com/google/gson/JsonElement.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="124" column="33" selection-start-line="124" selection-start-column="23" selection-end-line="124" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/math/BigDecimal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="1080" column="21" selection-start-line="1080" selection-start-column="11" selection-end-line="1080" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/reflect/Field.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="214" column="48" lean-forward="true" selection-start-line="214" selection-start-column="48" selection-end-line="214" selection-end-column="50" />
-          <folding>
-            <element signature="e#5730#5731#0" expanded="true" />
-            <element signature="e#5762#5763#0" expanded="true" />
-            <element signature="e#6809#6810#0" expanded="true" />
-            <element signature="e#6836#6837#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar!/com/google/gson/JsonObject.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-297">
-          <caret line="13" column="60" selection-start-line="13" selection-start-column="53" selection-end-line="13" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/reflect/Type.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/Appendable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-243">
-          <caret line="50" column="17" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar!/com/google/gson/Gson.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="82" selection-start-line="82" selection-end-line="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar!/com/google/gson/internal/bind/ReflectiveTypeAdapterFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="167" selection-start-line="167" selection-end-line="167" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="633" column="19" selection-start-line="633" selection-start-column="19" selection-end-line="633" selection-end-column="19" />
-          <folding>
-            <element signature="e#23072#23073#0" expanded="true" />
-            <element signature="e#23112#23113#0" expanded="true" />
-            <element signature="e#111196#111197#0" expanded="true" />
-            <element signature="e#111251#111252#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/javassist/javassist/3.26.0-GA/javassist-3.26.0-GA.jar!/javassist/CtClassType.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-63">
-          <caret line="67" column="4" selection-start-line="67" selection-start-column="4" selection-end-line="67" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/javassist/javassist/3.26.0-GA/javassist-3.26.0-GA.jar!/javassist/ClassPool.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="244" column="106" selection-start-line="244" selection-start-column="103" selection-end-line="244" selection-end-column="110" />
-          <folding>
-            <element signature="e#2293#2294#0" expanded="true" />
-            <element signature="e#2352#2353#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/javassist/javassist/3.26.0-GA/javassist-3.26.0-GA.jar!/javassist/CtArray.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/javassist/javassist/3.26.0-GA/javassist-3.26.0-GA.jar!/javassist/bytecode/FieldInfo.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="106" column="24" selection-start-line="106" selection-start-column="13" selection-end-line="106" selection-end-column="24" />
-          <folding>
-            <element signature="e#3091#3092#0" expanded="true" />
-            <element signature="e#3129#3130#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/javassist/javassist/3.26.0-GA/javassist-3.26.0-GA.jar!/javassist/CtField.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="128" column="32" selection-start-line="128" selection-start-column="32" selection-end-line="128" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/javassist/javassist/3.26.0-GA/javassist-3.26.0-GA.jar!/javassist/Modifier.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="928">
-          <caret line="99" column="22" selection-start-line="99" selection-start-column="22" selection-end-line="99" selection-end-column="22" />
-          <folding>
-            <element signature="e#2422#2423#0" expanded="true" />
-            <element signature="e#2457#2458#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/javassist/javassist/3.26.0-GA/javassist-3.26.0-GA.jar!/javassist/bytecode/AccessFlag.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-81">
-          <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
-          <folding>
-            <element signature="e#1286#1287#0" expanded="true" />
-            <element signature="e#1326#1327#0" expanded="true" />
-            <element signature="e#1937#1938#0" expanded="true" />
-            <element signature="e#1968#1969#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/reflect/Modifier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="320" column="53" selection-start-line="320" selection-start-column="49" selection-end-line="320" selection-end-column="53" />
-          <folding>
-            <element signature="e#2020#2021#0" expanded="true" />
-            <element signature="e#2063#2064#0" expanded="true" />
-            <element signature="e#15505#15506#0" expanded="true" />
-            <element signature="e#15544#15545#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/javassist/javassist/3.26.0-GA/javassist-3.26.0-GA.jar!/javassist/CtNewMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-618">
-          <caret line="104" column="27" selection-start-line="104" selection-start-column="27" selection-end-line="104" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/Class.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1326">
-          <caret line="392" column="13" selection-start-line="392" selection-start-column="13" selection-end-line="392" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="169" column="13" selection-start-line="169" selection-start-column="13" selection-end-line="169" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/javassist/javassist/3.26.0-GA/javassist-3.26.0-GA.jar!/javassist/CtClass.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="252" column="28" selection-start-line="252" selection-start-column="27" selection-end-line="252" selection-end-column="28" />
-          <folding>
-            <element signature="e#1610#1611#0" expanded="true" />
-            <element signature="e#1651#1652#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/javassist/javassist/3.26.0-GA/javassist-3.26.0-GA.jar!/javassist/CtNewConstructor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="76" column="32" selection-start-line="76" selection-start-column="32" selection-end-line="76" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/javassist/javassist/3.26.0-GA/javassist-3.26.0-GA.jar!/javassist/CtBehavior.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="157" column="21" selection-start-line="157" selection-start-column="21" selection-end-line="157" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/json/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-162">
-          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-          <folding>
-            <element signature="e#328#329#0" expanded="true" />
-            <element signature="e#353#354#0" expanded="true" />
-            <element signature="e#400#401#0" expanded="true" />
-            <element signature="e#428#429#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/json/JsonTools.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="21" column="55" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/json/BaseGen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1676">
-          <caret line="94" column="48" lean-forward="true" selection-start-line="94" selection-start-column="48" selection-end-line="94" selection-end-column="48" />
+        <state relative-caret-position="783">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SuperTest.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/Exception.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="22" />
+        <state relative-caret-position="400">
+          <caret line="53" column="13" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="13" />
           <folding>
-            <element signature="e#134#135#0" expanded="true" />
-            <element signature="e#182#183#0" expanded="true" />
+            <element signature="e#1663#1664#0" expanded="true" />
+            <element signature="e#1693#1694#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -703,123 +719,264 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/json/Test1.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/json/Person.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="22" column="34" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="34" />
+        <state relative-caret-position="337">
+          <caret line="53" column="20" lean-forward="true" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#785#786#0" expanded="true" />
+            <element signature="e#812#813#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/json/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+          <folding>
+            <element signature="e#328#329#0" expanded="true" />
+            <element signature="e#353#354#0" expanded="true" />
+            <element signature="e#400#401#0" expanded="true" />
+            <element signature="e#428#429#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/classgen/exception/CannotInitGenTool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/classgen/superinfo/SuperClassInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/reflect/Method.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1002">
-          <caret line="483" column="43" selection-start-line="483" selection-start-column="37" selection-end-line="483" selection-end-column="43" />
+        <state relative-caret-position="219">
+          <caret line="634" column="22" lean-forward="true" selection-start-line="634" selection-start-column="22" selection-end-line="634" selection-end-column="22" />
+          <folding>
+            <element signature="e#23072#23073#0" expanded="true" />
+            <element signature="e#23112#23113#0" expanded="true" />
+            <element signature="e#111196#111197#0" expanded="true" />
+            <element signature="e#111251#111252#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/druid/1.1.14/druid-1.1.14.jar!/com/alibaba/druid/pool/DruidDataSource.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1485">
+          <caret line="5" column="31" lean-forward="true" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/dom4j/dom4j/2.1.1/dom4j-2.1.1.jar!/org/dom4j/Element.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="98" column="11" selection-start-line="98" selection-start-column="11" selection-end-line="98" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/dom4j/dom4j/2.1.1/dom4j-2.1.1.jar!/org/dom4j/tree/AbstractElement.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="406" column="29" selection-start-line="406" selection-start-column="25" selection-end-line="406" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/classgen/exception/MissingAttributeException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="16" />
+          <folding>
+            <element signature="e#236#237#0" expanded="true" />
+            <element signature="e#259#260#0" expanded="true" />
+            <element signature="e#315#316#0" expanded="true" />
+            <element signature="e#345#346#0" expanded="true" />
+            <element signature="e#418#419#0" expanded="true" />
+            <element signature="e#455#456#0" expanded="true" />
+            <element signature="e#512#513#0" expanded="true" />
+            <element signature="e#540#541#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/Boolean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="120" column="26" selection-start-line="120" selection-start-column="26" selection-end-line="120" selection-end-column="26" />
+          <folding>
+            <element signature="e#3553#3554#0" expanded="true" />
+            <element signature="e#3619#3620#0" expanded="true" />
+            <element signature="e#5060#5061#0" expanded="true" />
+            <element signature="e#5113#5114#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="8" />
+        <state relative-caret-position="446">
+          <caret line="32" column="37" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
         </state>
       </provider>
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/class-file/Jiang.class" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/json/Person.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/classgen/database/DataBaseConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/sql/PreparedStatement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="229" column="53" selection-start-line="229" selection-start-column="53" selection-end-line="229" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/classgen/database/MysqlCorrespondType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="283">
-          <caret line="62" selection-start-line="62" selection-end-line="62" />
+          <caret line="41" column="36" lean-forward="true" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/ClassLoader.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/classgen/database/DBType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="405" column="22" selection-start-line="405" selection-start-column="21" selection-end-line="405" selection-end-column="22" />
+        <state relative-caret-position="-41">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/class-file/jiang/Jiang.class/jiang/Jiang.class" />
-    <entry file="file://$PROJECT_DIR$/class-file/jiang/jiang/Jiang.class" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Application.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/sql/ResultSet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="783">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        <state relative-caret-position="427">
+          <caret line="236" column="11" selection-start-line="236" selection-start-column="11" selection-end-line="236" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/classgen/database/CorrespondType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="41" lean-forward="true" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="260" column="41" selection-start-line="260" selection-start-column="35" selection-end-line="260" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/classgen/ass/GlobalConfigInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="33" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/classgen/core/ClassGenerateCore.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/RuntimeException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+        <state relative-caret-position="192">
+          <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/classgen/ass/GenerateTaskInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="17" column="36" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/concurrent/CopyOnWriteArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1620">
+          <caret line="119" column="11" selection-start-line="119" selection-start-column="11" selection-end-line="119" selection-end-column="11" />
+          <folding>
+            <element signature="e#3636#3637#0" expanded="true" />
+            <element signature="e#3675#3676#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/classgen/ass/GenerateTaskDetail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/classgen/superinfo/EntitySuperInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="41" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/class-file/jiang/Jiang.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conf/generate-class.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/classgen/xmldeal/XmlUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1053">
-          <caret line="45" column="37" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
+        <state relative-caret-position="307">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/classgen/core/MyClassLoader.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/classgen/superinfo/InterfaceInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1296">
-          <caret line="50" selection-start-line="50" selection-end-line="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/classgen/ass/FieldParam.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="20" column="29" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/classgen/Test2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="26" column="16" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="18" />
+        <state relative-caret-position="280">
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/classgen/EntityClassGenUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/classgen/superinfo/MethodInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+        <state relative-caret-position="280">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="99" column="22" selection-start-line="99" selection-start-column="22" selection-end-line="99" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/classgen/mapass/EntityClassInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -828,8 +985,185 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/classgen/ass/ClassParam.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/classgen/mapass/TableInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="337">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/classgen/ass/TableClassAssInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="31" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/classgen/core/FieldAnaylzeUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="67" column="34" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#fieldAnalyze#0;class#FieldAnaylzeUtil#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/classgen/core/GlobalConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="71" column="101" lean-forward="true" selection-start-line="71" selection-start-column="101" selection-end-line="71" selection-end-column="101" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/generate-class.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="17" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/classgen/xmldeal/XmlUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/global-conf.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/classgen/core/MyClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#573#574#0" expanded="true" />
+            <element signature="e#616#617#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class-file/jiang/Jiang.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="9" selection-start-line="9" selection-end-line="33" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/classgen/Test2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="36" selection-start-line="36" selection-end-line="40" selection-end-column="77" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/tableClassAssInfo.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="50" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/classgen/EntityClassGenUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="102" selection-start-line="102" selection-end-line="102" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/classgen/core/ClassGenerateCore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="127" selection-start-line="127" selection-end-line="127" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/classgen/Test3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="31" column="42" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/classgen/core/TaskDetailConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-233">
+          <caret line="177" column="45" selection-start-line="177" selection-start-column="36" selection-end-line="177" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#analyzeGenerateTaskDetail#0;class#TaskDetailConfiguration#0" />
+            <element signature="method#anylyzeEntitySuperInfo#0;class#TaskDetailConfiguration#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/classgen/ass/FieldParam.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="16" column="30" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/classgen/mapass/TableWithEntityRelPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/classgen/mapass/FieldMemberInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/classgen/adpaters/TransfromUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="40" column="79" selection-start-line="40" selection-start-column="79" selection-end-line="40" selection-end-column="79" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -51,16 +51,11 @@ public class Person implements IJsonParse{
 
     @Override
     public String toJson() {
-        return BaseGen.toJsonObject(true,this).toString();
-    }
-
-    public String toJson(boolean superFlag) {
-        return BaseGen.toJsonObject(superFlag,this).toString();
+        return null;
     }
 
     @Override
     public void fromJson(String jsonStr) {
-
 
     }
 }
