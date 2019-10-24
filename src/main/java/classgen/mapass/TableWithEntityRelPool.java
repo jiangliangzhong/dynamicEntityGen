@@ -22,5 +22,8 @@ public class TableWithEntityRelPool {
     public static Map<TableInfo, EntityClassInfo> getEntityClassInfoMap() {
         return entityClassInfoMap;
     }
+    public static EntityClassInfo getEntityClassInfoByKey(TableInfo tableInfoKey){
+        return entityClassInfoMap.get(tableInfoKey);
+    }
 
 }

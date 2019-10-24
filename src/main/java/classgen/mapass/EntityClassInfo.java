@@ -3,8 +3,10 @@ package classgen.mapass;
 import classgen.core.MyClassLoader;
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.Getter;
 import lombok.NoArgsConstructor;
 
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -13,7 +15,7 @@ import java.util.Map;
  * @author jiangliangzhong
  * @date 15:18 2019/10/23
  */
-@Data
+@Getter
 @AllArgsConstructor
 @NoArgsConstructor
 public class EntityClassInfo {
@@ -21,4 +23,9 @@ public class EntityClassInfo {
     private String className;
     /** 字段名：对应的信息 */
     private Map<String,FieldMemberInfo> fieldMemberInfoMap;
+    private List<FieldMemberInfo> fieldMemberInfoList;
+
+    public FieldMemberInfo getFieldMemberInfoByKey(String fieldName){
+        return fieldMemberInfoMap.get(fieldName);
+    }
 }

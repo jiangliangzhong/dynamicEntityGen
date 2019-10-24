@@ -12,6 +12,8 @@ import lombok.Data;
 @Data
 @AllArgsConstructor
 public class FieldMemberInfo {
+    /**字段名*/
+    private String dbFieldName;
     /**类中属性名,动态生成类后，添加到对象中*/
     private String classFieldName;
     /**对应类型*/

@@ -4,6 +4,7 @@ import com.alibaba.druid.sql.visitor.functions.Char;
 
 import java.math.BigDecimal;
 import java.math.BigInteger;
+import java.sql.ResultSet;
 
 /**
  * 类{@code MysqlCorrespondType}:
@@ -16,6 +17,8 @@ public class MysqlCorrespondType  implements CorrespondType{
     @Override
     public  Class<?> toJavaType(String fieldTypeName) {
         switch (fieldTypeName.toLowerCase()){
+            case "int":
+                return Integer.class;
             case "varchar":
                 return String.class;
             case "char":
@@ -44,4 +47,7 @@ public class MysqlCorrespondType  implements CorrespondType{
                 return String.class;
         }
     }
+
+
+
 }

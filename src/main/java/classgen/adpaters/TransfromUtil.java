@@ -11,6 +11,7 @@ import classgen.mapass.TableWithEntityRelPool;
 import sun.reflect.FieldInfo;
 
 import java.lang.reflect.Field;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -28,22 +29,22 @@ public class TransfromUtil {
         classLoader.addClassFile(generateTaskDetail.getTableClassAssInfo().getClassFileDir());
         //将类信息添加
         for(ClassParam classParam:generateTaskDetail.getTableClassAssInfo().getClassParamList()){
-            EntityClassInfo entityClassInfo = new EntityClassInfo();
-            TableInfo tableInfo = new TableInfo(classParam.getTableName(),classParam.getSchema());
-            //添加到关系池里
-            TableWithEntityRelPool.getEntityClassInfoMap().put(tableInfo,entityClassInfo);
 
-            entityClassInfo.setClassName(classParam.getClassName());
-            entityClassInfo.setMyClassLoader(classLoader);
+            TableInfo tableInfo = new TableInfo(classParam.getTableName(),classParam.getSchema());
+
 
             Map<String, FieldMemberInfo> fieldMemberInfoMap = new HashMap<>(classParam.getFieldParamList().size());
             for(FieldParam fieldParam:classParam.getFieldParamList()){
-                fieldMemberInfoMap.put(fieldParam.getFieldName(), new FieldMemberInfo(fieldParam.getClassFieldName(),fieldParam.getFieldType(),
+                fieldMemberInfoMap.put(fieldParam.getFieldName(), new FieldMemberInfo(fieldParam.getFieldName(),fieldParam.getClassFieldName(),fieldParam.getFieldType(),
                         fieldParam.getSetterName(),fieldParam.getGetterName()));
             }
 
-            entityClassInfo.setFieldMemberInfoMap(fieldMemberInfoMap);
 
+            EntityClassInfo entityClassInfo = new EntityClassInfo(classLoader,classParam.getClassName(),fieldMemberInfoMap,
+                    new ArrayList<>(fieldMemberInfoMap.values()));
+
+            //添加到关系池里
+            TableWithEntityRelPool.getEntityClassInfoMap().put(tableInfo,entityClassInfo);
         }
     }
 }

@@ -8,4 +8,6 @@ package classgen.database;
  */
 public interface CorrespondType {
     Class<?> toJavaType(String fieldTypeName);
+
+
 }
