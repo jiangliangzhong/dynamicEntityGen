@@ -1,8 +1,4 @@
-package classgen.mapass;
-
-import classgen.ass.ClassParam;
-import lombok.Data;
-import lombok.Getter;
+package classgen.mapping;
 
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;

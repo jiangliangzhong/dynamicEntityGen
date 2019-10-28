@@ -1,18 +1,21 @@
-<!--url username password driverClassName可以缺失，如果要自动生成，则不能缺失。-->
-<assInfo url="" userName="" password="" driverClassName=""><!-- 存放数据库连接信息  -->
-    <classFileDir>D:\MyJava\dynamicgenclass\class-file</classFileDir>    <!--  任务生成的类文件存放位置 -->
+<!--url username password driverClassName不能缺失。-->
+<assInfo url="jdbc:mysql://192.168.50.248:3306/student?serverTimezone=UTC&amp;useUnicode=true&amp;characterEncoding=utf-8" userName="root" password="123456" driverClassName="com.mysql.jdbc.Driver"><!-- 存放数据库连接信息  -->
+    <classFileDir>D:\MyJava\dynamicEntityGen\class-file</classFileDir>    <!--  任务生成的类文件存放位置 -->
     <tables>
         <!-- autoMatch:如果是自动生成，则fieldName标签无效,默认false -->
         <!-- tableName:不能缺失，表名-->
-        <!-- schema：模式名，不能缺失，mysql中为数据库名-->
         <!-- className：不能缺失，完整的类名，如'lang.student'-->
-        <table tableName="student" schema="school" className="Student" autoMatch="false">
-            <!-- fieldName: 不能缺失，数据库表字段名 -->
-            <!-- classFieldName:对应的类字段名，可缺失-->
-            <!-- classType: 对应的java类型，完整的java类名，可缺失-->
+        <!-- schema：模式名，可缺失，-->
+        <table tableName="stuInfo" className="Student" schema="" databaseName="student" autoMatch="true">
+            <!-- columnName: 不能缺失，数据库表字段名 -->
+            <!-- property:对应的类字段名，可缺失-->
+            <!-- jdbcType: jdbctype，可缺失-->
+            <!-- javaType: javaType，可缺失-->
+
             <!-- moodifierNum: 描述符， 可缺失，默认为private-->
-            <field fieldName="id"  classType="int" />
-            <field fieldName="age"   classType="int" />
+            <field columnName="id"  />
+            <field columnName="name"    />
+            <field columnName="sex"    />
         </table>
     </tables>
 </assInfo>

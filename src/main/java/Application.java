@@ -1,17 +1,16 @@
 import classgen.EntityClassGenUtil;
+import classgen.database.DataBaseConfig;
 import classgen.exception.CannotInitGenTool;
-import classgen.mapass.EntityClassInfo;
-import classgen.mapass.FieldMemberInfo;
-import classgen.mapass.TableInfo;
-import classgen.mapass.TableWithEntityRelPool;
+import classgen.mapping.EntityClassInfo;
+import classgen.mapping.TableInfo;
+import classgen.mapping.TableWithEntityRelPool;
 import javassist.*;
 
-import java.io.FileOutputStream;
 import java.io.IOException;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
-import java.sql.ResultSet;
-import java.util.Map;
+import java.sql.*;
+import java.util.List;
 import java.util.concurrent.ExecutionException;
 
 /**
@@ -21,28 +20,28 @@ import java.util.concurrent.ExecutionException;
  * @date 16:51 2019/10/18
  */
 public class Application {
-    public static void main(String[] args) throws ClassNotFoundException, NotFoundException, CannotCompileException, IOException, IllegalAccessException, InstantiationException, NoSuchMethodException, InvocationTargetException, InterruptedException, ExecutionException, CannotInitGenTool {
+    public static void main(String[] args) throws ClassNotFoundException, NotFoundException, CannotCompileException, IOException, IllegalAccessException, InstantiationException, NoSuchMethodException, InvocationTargetException, InterruptedException, ExecutionException, CannotInitGenTool, SQLException {
         //初始化类
         EntityClassGenUtil.generateEntity();
+        EntityClassInfo entityClassInfo = TableWithEntityRelPool.getEntityClassInfoByKey(new TableInfo("stuInfo", "", "student"));
 
 
 
-        EntityClassInfo entityClassInfo = TableWithEntityRelPool.getEntityClassInfoByKey(new TableInfo("student", "school"));
+        DataBaseConfig dataBaseConfig = new DataBaseConfig("com.mysql.jdbc.Driver","root","123456",
+                "jdbc:mysql://192.168.50.248:3306/student?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8");
+//        DataBaseConfig dataBaseConfig = new DataBaseConfig("com.mysql.jdbc.Driver","lab246","lizhenhao",
+//                "jdbc:postgresql://172.16.13.21:5432/lab246");
+        Connection connection = dataBaseConfig.getConnection();
+        Statement statement = connection.createStatement();
+        ResultSet resultSet = statement.executeQuery("select * from stuInfo");
+        while(resultSet.next()){
+            Object object = EntityClassGenUtil.getRowValue(resultSet, entityClassInfo);
+            System.out.println(object.getClass().getMethod(entityClassInfo.getFieldMemberInfoByKey("id").getGetterName()).invoke(object));
+        }
 
 
-        Class<?> clazz = entityClassInfo.getMyClassLoader().loadClass(entityClassInfo.getClassName());
-        Constructor constructor = clazz.getConstructor();
-        Object obj = constructor.newInstance();
 
-//        ResultSet rs;
-//        while(rs.next) {
-//            for (FieldMemberInfo fieldMemberInfo : entityClassInfo.getFieldMemberInfoList()) {
-//
-//                Object val = rs.getString(fieldMemberInfo.getDbFieldName());
-//                rs.get
-//                obj.getClass().getMethod(fieldMemberInfo.getSetterName(), fieldMemberInfo.getType()).invoke(obj, val);
-//            }
-//        }
+
 
     }
 }

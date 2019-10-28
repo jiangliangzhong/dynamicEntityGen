@@ -15,7 +15,7 @@ import java.sql.SQLException;
 public class DataBaseConfig extends DruidDataSource{
     public DataBaseConfig(String driverClassName,String username, String password, String url) {
         super();
-        this.setDriverClassName(driverClassName);
+//        this.setDriverClassName(driverClassName);
         this.setUrl(url);
         this.setUsername(username);
         this.setPassword(password);

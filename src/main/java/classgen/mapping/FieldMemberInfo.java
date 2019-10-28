@@ -1,4 +1,4 @@
-package classgen.mapass;
+package classgen.mapping;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

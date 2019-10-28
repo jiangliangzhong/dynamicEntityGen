@@ -1,7 +1,6 @@
-package classgen.ass;
+package classgen.association.entity;
 
 import lombok.AllArgsConstructor;
-import lombok.Data;
 import lombok.Getter;
 
 import java.util.List;
@@ -14,11 +13,17 @@ import java.util.List;
  */
 @AllArgsConstructor
 @Getter
-public class TableClassAssInfo {
+public class TableToClassMapping{
 
-    private List<ClassParam> classParamList;
+    /**
+     * 类配置信息
+     */
+    private List<ClassPropertity> classPropertityList;
     /** 类文件存放路径 */
     private String classFileDir;
+    /**
+     * 数据库连接信息
+     */
     private String url;
     private String userName;
     private String password;

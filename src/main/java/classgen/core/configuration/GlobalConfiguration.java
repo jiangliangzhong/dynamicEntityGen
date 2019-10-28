@@ -1,8 +1,9 @@
-package classgen.core;
+package classgen.core.configuration;
 
 
-import classgen.ass.GenerateTaskInfo;
-import classgen.ass.GlobalConfigInfo;
+
+import classgen.association.entity.BuildTaskFilePathProperity;
+import classgen.association.entity.GlobalProperity;
 import classgen.xmldeal.XmlUtil;
 
 import lombok.Getter;
@@ -24,7 +25,7 @@ public final class GlobalConfiguration {
     private static XmlUtil xmlUtil;
     private static Logger logger;
     @Getter
-    private static GlobalConfigInfo globalConfigInfo;
+    private static GlobalProperity globalProperity;
     /*  加载全局配置文件 */
     static{
         logger = Logger.getLogger(GlobalConfiguration.class.getName());
@@ -61,7 +62,7 @@ public final class GlobalConfiguration {
         if(xmlUtil == null){
             throw new RuntimeException("异常：xml工具为null");
         }
-        List<GenerateTaskInfo> generateTasks = new ArrayList<>();
+        List<BuildTaskFilePathProperity> buildTaskFilePathProperityList = new ArrayList<>();
         Iterator iterator = xmlUtil.getRoot().elementIterator();
         while(iterator.hasNext()){
             Element element = (Element) iterator.next();
@@ -70,11 +71,11 @@ public final class GlobalConfiguration {
                 for(Element e:element.elements()){
                     String superInfoFilePath = e.attributeValue("superInfoFilePath");
                     String tableClassAssInfoFilePath = e.attributeValue("tableClassAssInfoFilePath");
-                    generateTasks.add(new GenerateTaskInfo(superInfoFilePath, tableClassAssInfoFilePath));
+                    buildTaskFilePathProperityList.add(new BuildTaskFilePathProperity(superInfoFilePath, tableClassAssInfoFilePath));
                 }
             }
         }
-        globalConfigInfo = new GlobalConfigInfo(generateTasks);
+        globalProperity = new GlobalProperity(buildTaskFilePathProperityList);
     }
 
 }

@@ -1,10 +1,9 @@
-package classgen.ass;
+package classgen.association.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.io.Serializable;
 import java.util.List;
 
 /**
@@ -16,12 +15,22 @@ import java.util.List;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class ClassParam {
+public class ClassPropertity {
+    /** 表名*/
     private String tableName;
+    /** 模式名 */
     private String schema;
+    /** 数据库名*/
+    private String databaseName;
+    /**
+     * 对应的实体类名
+     */
     private String className;
+    /**
+     * 是否自动匹配
+     */
     private boolean autoMatch;
-    /**字段和属性对应关系*/
-    private List<FieldParam> fieldParamList;
+    /**数据库列和类属性对应关系*/
+    private List<FieldProperty> fieldPropertyList;
 
 }

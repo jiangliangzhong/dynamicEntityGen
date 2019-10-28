@@ -1,12 +1,14 @@
 package classgen.core;
 
-import classgen.ass.ClassParam;
-import classgen.ass.FieldParam;
-import classgen.ass.GenerateTaskDetail;
+import classgen.association.entity.BuildTaskProperity;
+
+import classgen.association.entity.ClassPropertity;
+
+import classgen.association.entity.FieldProperty;
+
 import classgen.superinfo.EntitySuperInfo;
 import classgen.superinfo.InterfaceInfo;
 import classgen.superinfo.MethodInfo;
-import com.google.gson.Gson;
 import javassist.*;
 
 import java.io.IOException;
@@ -14,7 +16,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.logging.Logger;
 
-import com.google.common.base.CaseFormat;
 import lombok.Getter;
 
 /**
@@ -31,32 +32,32 @@ public class ClassGenerateCore {
         logger = Logger.getLogger(ClassGenerateCore.class.getName());
     }
     @Getter
-    private GenerateTaskDetail generateTaskDetail;
+    private BuildTaskProperity buildTaskProperity;
     private EntitySuperInfo entitySuperInfo;
     private String classFilePath;
-    private ClassGenerateCore(GenerateTaskDetail generateTaskDetail) {
-        this.generateTaskDetail = generateTaskDetail;
-        entitySuperInfo = this.generateTaskDetail.getEntitySuperInfo();
-        this.classFilePath = this.generateTaskDetail.getTableClassAssInfo().getClassFileDir();
+    private ClassGenerateCore(BuildTaskProperity buildTaskProperity) {
+        this.buildTaskProperity = buildTaskProperity;
+        entitySuperInfo = this.buildTaskProperity.getEntitySuperInfo();
+        this.classFilePath = this.buildTaskProperity.getTableToClassMapping().getClassFileDir();
     }
     /**
      * 执行生成任务对外提供的接口
      * @date   14:59 2019/10/23
      * @author  jiangliangzhong
      */
-    public static void generateFromTaskDetail(GenerateTaskDetail generateTaskDetail){
-        ClassGenerateCore classGenerateCore = new ClassGenerateCore(generateTaskDetail);
+    public static void generateFromTaskDetail(BuildTaskProperity buildTaskProperity){
+        ClassGenerateCore classGenerateCore = new ClassGenerateCore(buildTaskProperity);
         classGenerateCore.execGenerateTask();
     }
     private void execGenerateTask(){
         //遍历该任务下，每个类的任务
-        for(ClassParam classParam:generateTaskDetail.getTableClassAssInfo().getClassParamList()){
+        for(ClassPropertity classPropertity:buildTaskProperity.getTableToClassMapping().getClassPropertityList()){
             //生成该类的文件
-            this.generateClassFile(classParam);
+            this.generateClassFile(classPropertity);
         }
     }
 
-    public void generateClassFile(ClassParam classParam) {
+    public void generateClassFile(ClassPropertity classParam) {
         CtClass objClass = classPool.makeClass(classParam.getClassName());
         //设置多态信息
         if(entitySuperInfo!=null) {
@@ -108,15 +109,15 @@ public class ClassGenerateCore {
         //保存属性的类型，用于构造有参构造函数
         List<CtClass> ctTypeList = new ArrayList<>();
         //遍历字段,添加进类中
-        for(FieldParam fieldParam:classParam.getFieldParamList()){
+        for(FieldProperty fieldParam:classParam.getFieldPropertyList()){
             try {
                 //加载属性类型
-                CtClass ctType = classPool.get(fieldParam.getFieldType().getName());
+                CtClass ctType = classPool.get(fieldParam.getJavaType().getName());
                 ctTypeList.add(ctType);
                 //规范化属性名字
                 String ctFieldName = fieldParam.getFieldName();
                 //将字段名和属性名关联起来
-                fieldParam.setClassFieldName(ctFieldName);
+                fieldParam.setFieldName(ctFieldName);
                 //新建属性对象
                 CtField ctField = new CtField(ctType, ctFieldName, objClass);
                 //设置修饰符

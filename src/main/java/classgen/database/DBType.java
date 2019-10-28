@@ -7,6 +7,7 @@ import lombok.Getter;
  * @date   20:29 2019/10/22
  * @author  jiangliangzhong
  */
+@Deprecated
 public enum DBType {
     /** oracle数据库*/
     ORACLE("oracle",null,null),
@@ -27,8 +28,10 @@ public enum DBType {
         this.databaseName = databaseName;
         this.selectSql = selectSql;
         this.correspondType = correspondType;
+
     }
     public DBType valueof(String driverClassName){
+
         if(driverClassName.contains("oracle")){
             return ORACLE;
         }else if(driverClassName.contains("mysql")){

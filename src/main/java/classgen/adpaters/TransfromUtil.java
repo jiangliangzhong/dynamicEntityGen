@@ -1,16 +1,17 @@
 package classgen.adpaters;
 
-import classgen.ass.ClassParam;
-import classgen.ass.FieldParam;
-import classgen.ass.GenerateTaskDetail;
-import classgen.core.MyClassLoader;
-import classgen.mapass.EntityClassInfo;
-import classgen.mapass.FieldMemberInfo;
-import classgen.mapass.TableInfo;
-import classgen.mapass.TableWithEntityRelPool;
-import sun.reflect.FieldInfo;
+import classgen.association.entity.BuildTaskProperity;
 
-import java.lang.reflect.Field;
+import classgen.association.entity.ClassPropertity;
+
+import classgen.association.entity.FieldProperty;
+
+import classgen.core.MyClassLoader;
+import classgen.mapping.EntityClassInfo;
+import classgen.mapping.FieldMemberInfo;
+import classgen.mapping.TableInfo;
+import classgen.mapping.TableWithEntityRelPool;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
@@ -23,20 +24,18 @@ import java.util.Map;
  */
 public class TransfromUtil {
 
-    public static void addIntoTableWithEntityRel(GenerateTaskDetail generateTaskDetail){
+    public static void addIntoTableWithEntityRel(BuildTaskProperity buildTaskProperity){
         //1.将类文件路径添加到classloader
         MyClassLoader classLoader = MyClassLoader.getInstance();
-        classLoader.addClassFile(generateTaskDetail.getTableClassAssInfo().getClassFileDir());
+        classLoader.addClassFile(buildTaskProperity.getTableToClassMapping().getClassFileDir());
         //将类信息添加
-        for(ClassParam classParam:generateTaskDetail.getTableClassAssInfo().getClassParamList()){
+        for(ClassPropertity classParam:buildTaskProperity.getTableToClassMapping().getClassPropertityList()){
 
-            TableInfo tableInfo = new TableInfo(classParam.getTableName(),classParam.getSchema());
+            TableInfo tableInfo = new TableInfo(classParam.getTableName(),classParam.getSchema(),classParam.getDatabaseName());
 
-
-            Map<String, FieldMemberInfo> fieldMemberInfoMap = new HashMap<>(classParam.getFieldParamList().size());
-            for(FieldParam fieldParam:classParam.getFieldParamList()){
-                fieldMemberInfoMap.put(fieldParam.getFieldName(), new FieldMemberInfo(fieldParam.getFieldName(),fieldParam.getClassFieldName(),fieldParam.getFieldType(),
-                        fieldParam.getSetterName(),fieldParam.getGetterName()));
+            Map<String, FieldProperty> fieldMemberInfoMap = new HashMap<>(classParam.getFieldPropertyList().size());
+            for(FieldProperty fieldParam:classParam.getFieldPropertyList()){
+                fieldMemberInfoMap.put(fieldParam.getColumnName(),fieldParam);
             }
 
 
