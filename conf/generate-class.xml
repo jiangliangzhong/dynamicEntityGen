@@ -3,10 +3,10 @@
     <!-- 需要继承的类，不支持抽象类，暂不支持重写-->
     <!--<superClass className=""/> -->
     <interfaces> <!-- 继承接口信息集合 -->
-        <interface IName=""> <!-- 接口信息-->
-            <method MName=""><!-- 方法， name为方法名字-->
-                <code> </code><!-- 实现代码 -->
-            </method>
+        <interface IName="java.io.Serializable"> <!-- 接口信息-->
+            <!--<method MName="">&lt;!&ndash; 方法， name为方法名字&ndash;&gt;-->
+                <!--<code> </code>&lt;!&ndash; 实现代码 &ndash;&gt;-->
+            <!--</method>-->
         </interface>
     </interfaces>
 </project>

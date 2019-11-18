@@ -85,7 +85,6 @@ public class BuildTaskConfiguration {
             if("superClass".equals(e1.getName())){
                 superClassName = e1.attributeValue("className");
             }else if("interfaces".equals(e1.getName())){
-
                 //遍历接口信息
                 for(Element e2:e1.elements()){
                     //拿到接口信息
@@ -114,7 +113,7 @@ public class BuildTaskConfiguration {
             }
         }
         if(superClassName == null){
-            return new EntitySuperInfo(null,interfaceInfos);
+            return new EntitySuperInfo(new SuperClassInfo(null),interfaceInfos);
         }
         return new EntitySuperInfo(new SuperClassInfo(superClassName),interfaceInfos);
     }
