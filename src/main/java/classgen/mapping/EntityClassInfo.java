@@ -6,6 +6,7 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
+import java.io.Serializable;
 import java.util.List;
 import java.util.Map;
 
@@ -18,7 +19,9 @@ import java.util.Map;
 @Getter
 @AllArgsConstructor
 @NoArgsConstructor
-public class EntityClassInfo {
+public class EntityClassInfo implements Serializable {
+
+    private static final long serialVersionUID = 2269969283224656206L;
     private MyClassLoader myClassLoader;
     private String className;
     /** 字段名：对应的信息 */

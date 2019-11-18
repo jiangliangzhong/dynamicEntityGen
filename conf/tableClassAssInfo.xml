@@ -13,9 +13,29 @@
             <!-- javaType: javaType，可缺失-->
 
             <!-- moodifierNum: 描述符， 可缺失，默认为private-->
-            <field columnName="id"  />
-            <field columnName="name"    />
-            <field columnName="sex"    />
+            <field columnName="id"/>
+            <field columnName="name"/>
+            <field columnName="sex"/>
+        </table>
+        <table tableName="school" className="School" schema="" databaseName="chain" autoMatch="true">
+            <!-- columnName: 不能缺失，数据库表字段名 -->
+            <!-- property:对应的类字段名，可缺失-->
+            <!-- jdbcType: jdbctype，可缺失-->
+            <!-- javaType: javaType，可缺失-->
+
+            <!-- moodifierNum: 描述符， 可缺失，默认为private-->
+            <field columnName="id"/>
+            <field columnName="name"/>
+        </table>
+        <table tableName="class" className="Class" schema="" databaseName="chain" autoMatch="true">
+            <!-- columnName: 不能缺失，数据库表字段名 -->
+            <!-- property:对应的类字段名，可缺失-->
+            <!-- jdbcType: jdbctype，可缺失-->
+            <!-- javaType: javaType，可缺失-->
+
+            <!-- moodifierNum: 描述符， 可缺失，默认为private-->
+            <field columnName="id"/>
+            <field columnName="school_id"/>
         </table>
     </tables>
 </assInfo>

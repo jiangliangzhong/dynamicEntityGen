@@ -3,6 +3,8 @@ package classgen.mapping;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 
+import java.io.Serializable;
+
 /**
  * 类{@code FieldMemberInfo}:
  *
@@ -11,7 +13,9 @@ import lombok.Data;
  */
 @Data
 @AllArgsConstructor
-public class FieldMemberInfo {
+public class FieldMemberInfo implements Serializable {
+
+    private static final long serialVersionUID = 7929125045086792833L;
     /**字段名*/
     private String dbFieldName;
     /**类中属性名,动态生成类后，添加到对象中*/
