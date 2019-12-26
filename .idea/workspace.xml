@@ -275,6 +275,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="806" y="408" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1577345570737" />
+    <state x="519" y="111" width="1246" height="818" key="CommitChangelistDialog2" timestamp="1577349484403">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="519" y="111" width="1246" height="818" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1577349484403" />
     <state width="1876" height="332" key="GridCell.Tab.0.bottom" timestamp="1577345905557">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -311,6 +315,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="672" y="229" key="RollbackChangesDialog/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1577345485983" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1577349490192">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1577349490192" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
