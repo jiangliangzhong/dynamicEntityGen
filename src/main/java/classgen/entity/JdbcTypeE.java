@@ -1,5 +1,6 @@
 package classgen.entity;
 
+import java.io.Serializable;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -8,7 +9,7 @@ import java.util.Map;
  * @date   15:53 2019/10/28
  * @author  jiangliangzhong
  */
-public enum JdbcTypeE {
+public enum JdbcTypeE implements Serializable {
     /** jdbc对应的类型*/
     ARRAY(2003),
     BIT(-7),

@@ -4,7 +4,6 @@ import classgen.superinfo.EntitySuperInfo;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 
-import java.sql.JDBCType;
 
 /**
  * 类{@code GenerateTaskDetail}: 生成任务细节，对应<task>标签

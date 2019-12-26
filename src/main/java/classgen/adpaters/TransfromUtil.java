@@ -39,8 +39,8 @@ public class TransfromUtil {
             }
 
 
-            EntityClassInfo entityClassInfo = new EntityClassInfo(classLoader,classParam.getClassName(),fieldMemberInfoMap,
-                    new ArrayList<>(fieldMemberInfoMap.values()));
+            EntityClassInfo entityClassInfo = new EntityClassInfo(classParam.getClassName(),fieldMemberInfoMap,
+                    new ArrayList<>(fieldMemberInfoMap.values()),classLoader);
 
             //添加到关系池里
             TableWithEntityRelPool.getEntityClassInfoMap().put(tableInfo,entityClassInfo);

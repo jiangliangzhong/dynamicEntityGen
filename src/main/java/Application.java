@@ -2,6 +2,7 @@ import classgen.EntityClassGenUtil;
 import classgen.database.DataBaseConfig;
 import classgen.exception.CannotInitGenTool;
 import classgen.mapping.EntityClassInfo;
+import classgen.mapping.EntityClassProperty;
 import classgen.mapping.TableInfo;
 import classgen.mapping.TableWithEntityRelPool;
 import javassist.*;
@@ -23,9 +24,7 @@ public class Application {
     public static void main(String[] args) throws ClassNotFoundException, NotFoundException, CannotCompileException, IOException, IllegalAccessException, InstantiationException, NoSuchMethodException, InvocationTargetException, InterruptedException, ExecutionException, CannotInitGenTool, SQLException {
         //初始化类
         EntityClassGenUtil.generateEntity();
-        EntityClassInfo entityClassInfo = TableWithEntityRelPool.getEntityClassInfoByKey(new TableInfo("stuInfo", "", "student"));
-
-
+        EntityClassInfo entityClassInfo = TableWithEntityRelPool.getEntityClassInfoByKey(new TableInfo("apply_school", "", "chain"));
 
         DataBaseConfig dataBaseConfig = new DataBaseConfig("com.mysql.jdbc.Driver","root","123456",
                 "jdbc:mysql://192.168.50.248:3306/student?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8");

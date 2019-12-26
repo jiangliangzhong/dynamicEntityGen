@@ -1,9 +1,8 @@
 package classgen.mapping;
 
 import classgen.association.entity.FieldProperty;
-import classgen.core.MyClassLoader;
 import lombok.AllArgsConstructor;
-import lombok.Getter;
+import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.io.Serializable;
@@ -11,18 +10,15 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * 类{@code EntityClassInfo}:
- *
- * @author jiangliangzhong
- * @date 15:18 2019/10/23
- */
-@Getter
-@NoArgsConstructor
+ * @author ZhouPan
+ * @date 2019-11-18
+ **/
+@Data
 @AllArgsConstructor
-public class EntityClassInfo  implements Serializable {
-
-    private static final long serialVersionUID = 4909813441139158498L;
-    private String className;
+@NoArgsConstructor
+public class EntityClassProperty implements Serializable {
+	private static final long serialVersionUID = -6946918743663262280L;
+	private String className;
     /** 字段名：对应的信息 */
     private Map<String, FieldProperty> fieldMemberInfoMap;
     private List<FieldProperty> fieldMemberInfoList;
@@ -34,7 +30,4 @@ public class EntityClassInfo  implements Serializable {
          }
          return fieldMemberInfo;
     }
-
-    private MyClassLoader myClassLoader;
-
 }

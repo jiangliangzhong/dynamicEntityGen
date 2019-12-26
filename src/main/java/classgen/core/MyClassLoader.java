@@ -11,7 +11,9 @@ import java.util.concurrent.CopyOnWriteArrayList;
  * @author jiangliangzhong
  * @date 15:58 2019/10/19
  */
-public class  MyClassLoader extends ClassLoader{
+public class  MyClassLoader extends ClassLoader implements Serializable{
+    private static final long serialVersionUID = -1076115992796619644L;
+
     private static class Hodler{
         private static MyClassLoader myClassLoader = new MyClassLoader();
     }

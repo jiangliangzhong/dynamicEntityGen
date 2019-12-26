@@ -6,6 +6,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.apache.ibatis.type.JdbcType;
 
+import java.io.Serializable;
 import java.lang.reflect.Modifier;
 
 /**
@@ -17,7 +18,7 @@ import java.lang.reflect.Modifier;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class FieldProperty{
+public class FieldProperty implements Serializable {
     /**修饰符数*/
     private int modifierNum;
     /**字段名*/
